@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  image:String = 'https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif';  
+
   constructor() { }
 
   ngOnInit() {
