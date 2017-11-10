@@ -1,0 +1,12 @@
+
+    <h2>Voci la liste des posts en cours :</h2>
+    <div *ngFor="let i of posts">
+      <h1>----------------------------------</h1>
+      <h2>        {{i.id}}</h2>
+      <div>        {{i.content}}</div>
+      <div>        <img src="{{i.img}}" height="100" ></div>
+      <div>        {{i.userID}}</div>
+      <div>        {{i.timestamp}}</div>
+      
+  </div>
+
